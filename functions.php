@@ -57,7 +57,7 @@ function get_joke() {
 
     $ch = curl_init();
 
-    curl_setopt($ch, CURLOPT_URL, "https://08ad1pao69.execute-api.us-east-1.amazonaws.com/dev/random_joke");
+    curl_setopt($ch, CURLOPT_URL, "https://safe-falls-22549.herokuapp.com/random_joke");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
     $output = curl_exec($ch);
