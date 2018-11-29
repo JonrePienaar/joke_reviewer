@@ -72,7 +72,7 @@ function get_joke() {
 
 
 // checking if the joke and or review excists or not and calling functions accordingly.
-function add_or_update($joke, $rating) {
+function add_or_update($rating, $joke) {
     $conn = connect_db();
 
     $joke_id = $joke["id"];
